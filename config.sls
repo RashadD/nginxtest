@@ -9,8 +9,8 @@
 /etc/nginx/htpasswd:
   file.recurse:
     - source: salt://nginx/htpasswd
-    - user: www-data
-    - group: www-data
+    - user: www-tester
+    - group: www-tester
     - dir_mode: 544
     - file_mode: 444
 
