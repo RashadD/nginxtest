@@ -1,6 +1,4 @@
 ### VHOSTS ###
-
-
 # symlink the site
 /etc/nginx/sites-enabled/www.tester.com:
   file.symlink:
