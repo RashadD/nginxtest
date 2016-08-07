@@ -1,3 +1,4 @@
+
 # Make sure nginx is installed and up
 nginx:
   pkg:
